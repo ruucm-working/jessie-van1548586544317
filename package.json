@@ -1,0 +1,39 @@
+{
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel --watch --copy-files ./src -d ./code"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.16",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "framer": "^0.10.1"
+  },
+  "peerDependencies": {
+    "framer": "^0.10.1",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "framer": {
+    "id": "4d1edd0f-205e-4ad7-82e2-e688c9d18526"
+  },
+  "author": ". ruucm",
+  "dependencies": {
+    "@framer/danielguillan.syntax-highlighter": "^1.4.0",
+    "@framer/janvanwtf.youtube": "^1.3.0",
+    "@framer/krijn.loading-indicators": "^1.4.0",
+    "@framer/oemisch.iframe": "^1.6.0",
+    "@framer/ruucm.html-a": "^1.0.0",
+    "@framer/ruucm.removeframerxstyles": "^1.14.0",
+    "react-helmet": "^5.2.0",
+    "recompose": "^0.30.0",
+    "ruucm-util": "^0.12.0",
+    "styled-components": "^4.1.3"
+  }
+}
